@@ -82,7 +82,7 @@
 	            return _react2.default.createElement(
 	                'p',
 	                null,
-	                'Hello React!'
+	                'Hello React! I am being watched by webpack and it will run everytime there\'s changes.'
 	            );
 	        }
 	    }]);

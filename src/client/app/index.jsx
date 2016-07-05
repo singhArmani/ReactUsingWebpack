@@ -3,7 +3,7 @@ import ReactDom from 'react-dom';
 
 class App extends React.Component {
     render(){
-        return <p>Hello React!</p>;
+        return <p>Hello React! I am being watched by webpack and it will run everytime there's changes.</p>;
     }
 }
 
