@@ -1,0 +1,26 @@
+{
+  "name": "react-using-webpack",
+  "version": "1.0.0",
+  "description": "React Application using Webpack, Npm, Babal 6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singhArmani/ReactUsingWebpack.git"
+  },
+  "keywords": [
+    "React",
+    "Webpack"
+  ],
+  "author": "Amandeep Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/singhArmani/ReactUsingWebpack/issues"
+  },
+  "homepage": "https://github.com/singhArmani/ReactUsingWebpack#readme",
+  "dependencies": {
+    "webpack": "^1.13.1"
+  }
+}
