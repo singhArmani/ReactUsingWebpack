@@ -1,6 +1,3 @@
-/**
- * Created by singh on 6/07/2016.
- */
 var webpack = require('webpack');
 var WebpackDevServer = require('webpack-dev-server');
 var config = require('./webpack.config');
@@ -11,8 +8,9 @@ new WebpackDevServer(webpack(config), {
     historyApiFallback: true
 }).listen(3000, 'localhost', function (err, result) {
     if (err) {
-        return console.log(err);
+        return console.log("the error is "+err);
     }
 
     console.log('Listening at http://localhost:3000/');
 });
+
