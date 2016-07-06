@@ -4,7 +4,9 @@
   "description": "React Application using Webpack, Npm, Babal 6",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p",
+    "dev": "webpack -d --watch"
   },
   "repository": {
     "type": "git",
