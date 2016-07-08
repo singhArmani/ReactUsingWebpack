@@ -9,6 +9,7 @@ import React from "react";
      render(){
          return (<div>
             <h2>This is a React App, I am loving it. </h2>
+             <h3>Also I am using Hot Module reloading!</h3>
          </div>);
      }
 }
