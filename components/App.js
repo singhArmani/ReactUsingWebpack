@@ -1,4 +1,6 @@
 import React from "react";
+import TextInput from './TextInput'
+
 /**
  * Created by singh on 8/07/2016.
  */
@@ -8,8 +10,8 @@ import React from "react";
  export default class App extends React.Component {
      render(){
          return (<div>
-            <h2>This is a React App, I am loving it. </h2>
-             <h3>Also I am using Hot Module reloading!</h3>
+            <h2>This is a React App. </h2>
+             <TextInput/>
          </div>);
      }
 }
