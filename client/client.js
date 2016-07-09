@@ -4,7 +4,7 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from '../components/App.js'
+import App from '../components/BookStore.js'
 
 ReactDOM.render(
     <App/>,document.getElementById('app')
