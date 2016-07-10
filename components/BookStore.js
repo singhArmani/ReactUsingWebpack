@@ -13,10 +13,14 @@ import DeliveryDetails from './DeliveryDetails';
     constructor(props){
         super(props);
         this.state = {currentStep:1, formValues:{}}; //new way of assigning value to step
+        this.updateFormData = this.updateFormData.bind(this);
     }
     
     updateFormData(formData){
-        console.log("calling updateFormData function "+formData);
+
+        var formValues = Object.assign({},this.state.formValues,formData);
+        this.setState({currentStep:this.state.currentStep+1, formValues:formValues});
+
     }
     
      render(){

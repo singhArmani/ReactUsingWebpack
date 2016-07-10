@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eadd8d35-cd0c-4623-8914-eab9a34d0bf6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/BookList.js" afterPath="$PROJECT_DIR$/components/BookList.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/BookStore.js" afterPath="$PROJECT_DIR$/components/BookStore.js" />
     </list>
     <ignored path="ReactUsingWebPack.iws" />
@@ -39,8 +38,8 @@
       <file leaf-file-name="BookStore.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/BookStore.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
+            <state relative-caret-position="374">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
                 <element signature="e#160#201#0" expanded="false" />
@@ -52,7 +51,7 @@
       <file leaf-file-name="BookList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/BookList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
+            <state relative-caret-position="-196">
               <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
@@ -137,7 +136,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="51" />
     <option name="y" value="25" />
-    <option name="width" value="878" />
+    <option name="width" value="957" />
     <option name="height" value="809" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -683,7 +682,7 @@
       <workItem from="1467935604004" duration="372000" />
       <workItem from="1467935982284" duration="12886000" />
       <workItem from="1468090808018" duration="9931000" />
-      <workItem from="1468167602343" duration="8149000" />
+      <workItem from="1468167602343" duration="9982000" />
     </task>
     <task id="LOCAL-00001" summary="Added .babelrc configuration file to use the ES6 and JSX plugins">
       <created>1467757068499</created>
@@ -825,11 +824,25 @@
       <option name="project" value="LOCAL" />
       <updated>1468174923195</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Parent-child communication. Child talking to parent through callback function.">
+      <created>1468176448099</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1468176448099</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Added formValues key to the BookStore Component state as empty object to hold the updateForm data values">
+      <created>1468176611274</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1468176611274</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60071000" />
+    <option name="totallyTimeSpent" value="61904000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -841,7 +854,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="25" width="878" height="809" extended-state="0" />
+    <frame x="51" y="25" width="957" height="809" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -855,7 +868,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48256624" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26258993" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23986857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -903,7 +916,9 @@
     <MESSAGE value="Creating an online Book Order App Prototype using E6 class React component." />
     <MESSAGE value="Creating State for BookList Component and added some function and used bind" />
     <MESSAGE value="BookList state Updating functionality implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="BookList state Updating functionality implemented" />
+    <MESSAGE value="Parent-child communication. Child talking to parent through callback function." />
+    <MESSAGE value="Added formValues key to the BookStore Component state as empty object to hold the updateForm data values" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added formValues key to the BookStore Component state as empty object to hold the updateForm data values" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1182,14 +1197,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/BookList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
@@ -1198,10 +1205,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/components/BookList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/BookStore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="374">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
             <element signature="e#160#201#0" expanded="false" />
