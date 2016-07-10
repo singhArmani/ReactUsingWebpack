@@ -29,6 +29,9 @@ export default class BookList extends React.Component {
         //we have to bind the function with out React Component class using bind method
         this.handleSelectedBooks= this.handleSelectedBooks.bind(this);
 
+        //same logic as above ..this.state..
+         this.handleSubmit = this.handleSubmit.bind(this);
+    //
     }
 
     handleSelectedBooks(event){
@@ -52,8 +55,16 @@ export default class BookList extends React.Component {
     }
 
     handleSubmit(event){
-       console.log(event);
         event.preventDefault();
+
+        /*
+         "The BookList component now calls the updateFormData function and passes the
+         currently selected books to it, whenever a user submits the first form,"
+         */
+
+        this.props.updateFormData({selectedBooks:this.state.selectedBooks});
+
+
         console.log("Form Submited!");
     }
 

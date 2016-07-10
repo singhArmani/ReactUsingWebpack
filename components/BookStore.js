@@ -15,14 +15,18 @@ import DeliveryDetails from './DeliveryDetails';
         this.state = {currentStep:1}; //new way of assigning value to step
     }
     
+    updateFormData(formData){
+        console.log("calling updateFormData function "+formData);
+    }
+    
      render(){
          switch (this.state.currentStep){
              case 1:
-                 return <BookList/>;
+                 return <BookList updateFormData ={this.updateFormData}/>;
              case 2:
-                 return <ShippingDetails/>;
+                 return <ShippingDetails updateFormData ={this.updateFormData}/>;
              case 3:
-                 return <DeliveryDetails />;
+                 return <DeliveryDetails updateFormData ={this.updateFormData}/>;
          }
      }
 }
