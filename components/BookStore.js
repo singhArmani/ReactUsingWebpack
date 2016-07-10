@@ -12,7 +12,7 @@ import DeliveryDetails from './DeliveryDetails';
     //E6 style
     constructor(props){
         super(props);
-        this.state = {currentStep:1}; //new way of assigning value to step
+        this.state = {currentStep:1, formValues:{}}; //new way of assigning value to step
     }
     
     updateFormData(formData){
