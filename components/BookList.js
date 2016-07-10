@@ -22,7 +22,8 @@ export default class BookList extends React.Component {
                 name:"My Journey of struggle",
                 author:"Rasmeet Kour"
             }],
-            selectedBooks:[] //empty selectedBooks
+            selectedBooks:[], //empty selectedBooks
+            error:false
         };
 
         //As we are retrieving state of our component in handleSelectedBooks function
@@ -31,6 +32,8 @@ export default class BookList extends React.Component {
 
         //same logic as above ..this.state..
          this.handleSubmit = this.handleSubmit.bind(this);
+
+        this.RenderError = this.RenderError.bind(this);
     //
     }
 
@@ -62,10 +65,17 @@ export default class BookList extends React.Component {
          currently selected books to it, whenever a user submits the first form,"
          */
 
-        this.props.updateFormData({selectedBooks:this.state.selectedBooks});
+        //if user hasn't selected any books
+        if (this.state.selectedBooks.length === 0) {
+            this.setState({error:"Please choose one book to continue"});
+            console.log("Form can't be Submited!");
+        }
+        else {
+            this.setState({error:false}); //setting to false again
+            this.props.updateFormData({selectedBooks: this.state.selectedBooks});
+            console.log("Form Submited!");
+        }
 
-
-        console.log("Form Submited!");
     }
 
     //this function will render the book with the name and the author
@@ -82,13 +92,25 @@ export default class BookList extends React.Component {
         );
     }
 
+    RenderError(){
+        if(this.state.error) {
+            return (
+                <div className="alert alert-danger">
+                    {this.state.error}
+                </div>
+            );
+        }
+
+    }
+
    render(){
        //getting all books from the state
        var Books = this.state.books.map((book) => this.RenderBook(book));
-
+        var errorMessage = this.RenderError();
       return (
           <div>
-            <h1>Choose from wide variety of Books available in our store</h1>
+            <h3>Choose from wide variety of Books available in our store</h3>
+              {errorMessage}
               <form onSubmit={this.handleSubmit}>
                 {Books}
                   <input type="submit" value ="submit" className="btn btn-success"/>
