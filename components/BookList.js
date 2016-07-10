@@ -32,16 +32,23 @@ export default class BookList extends React.Component {
     }
 
     handleSelectedBooks(event){
-        console.log(event.target.value);
+
         var _selectedBooks = this.state.selectedBooks;
 
         //getting index of the selected book
         var index = _selectedBooks.indexOf(event.target.value);
 
-        if(event.target.checked){
-            (index === -1) ? _selectedBooks.push(event.target.value): _selectedBooks.splice(index,1);
+        //pushing into the array only when item is not in the selectedBook state and it's being checked
+        if (event.target.checked)
+        {
+            if (index === -1) _selectedBooks.push(event.target.value);
 
+        } else {
+                _selectedBooks.splice(index, 1);
         }
+
+
+        this.setState({selectedBooks:_selectedBooks}); //updating the state using setState(mykey:"new value")
     }
 
     handleSubmit(event){

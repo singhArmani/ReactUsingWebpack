@@ -4,7 +4,6 @@
     <list default="true" id="eadd8d35-cd0c-4623-8914-eab9a34d0bf6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/BookList.js" afterPath="$PROJECT_DIR$/components/BookList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/BookStore.js" afterPath="$PROJECT_DIR$/components/BookStore.js" />
     </list>
     <ignored path="ReactUsingWebPack.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,8 +51,8 @@
       <file leaf-file-name="BookList.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/BookList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+            <state relative-caret-position="255">
+              <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -666,7 +665,7 @@
       <workItem from="1467935604004" duration="372000" />
       <workItem from="1467935982284" duration="12886000" />
       <workItem from="1468090808018" duration="9931000" />
-      <workItem from="1468167602343" duration="4258000" />
+      <workItem from="1468167602343" duration="6681000" />
     </task>
     <task id="LOCAL-00001" summary="Added .babelrc configuration file to use the ES6 and JSX plugins">
       <created>1467757068499</created>
@@ -794,11 +793,18 @@
       <option name="project" value="LOCAL" />
       <updated>1468168607357</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Creating State for BookList Component and added some function and used bind">
+      <created>1468172416865</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1468172416865</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56180000" />
+    <option name="totallyTimeSpent" value="58603000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -870,7 +876,8 @@
     <MESSAGE value="implementing React-Bootstrap in my ReactApp" />
     <MESSAGE value="No autobinding was the decision of React team when they implemented support of ES6 classes for React components." />
     <MESSAGE value="Creating an online Book Order App Prototype using E6 class React component." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating an online Book Order App Prototype using E6 class React component." />
+    <MESSAGE value="Creating State for BookList Component and added some function and used bind" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating State for BookList Component and added some function and used bind" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1133,22 +1140,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/ShippingDetails.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/DeliveryDetails.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1168,10 +1159,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/components/DeliveryDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/ShippingDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/BookList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+        <state relative-caret-position="255">
+          <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="49" />
           <folding />
         </state>
       </provider>
