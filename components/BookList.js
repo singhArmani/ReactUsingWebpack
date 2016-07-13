@@ -68,12 +68,12 @@ export default class BookList extends React.Component {
         //if user hasn't selected any books
         if (this.state.selectedBooks.length === 0) {
             this.setState({error:"Please choose one book to continue"});
-            console.log("Form can't be Submited!");
+            console.log("Form can't be Submitted!");
         }
         else {
             this.setState({error:false}); //setting to false again
             this.props.updateFormData({selectedBooks: this.state.selectedBooks});
-            console.log("Form Submited!");
+            console.log("Form Submitted!");
         }
 
     }
