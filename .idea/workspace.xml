@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eadd8d35-cd0c-4623-8914-eab9a34d0bf6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/Sucess.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/BookStore.js" afterPath="$PROJECT_DIR$/components/BookStore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/Confirmation.js" afterPath="$PROJECT_DIR$/components/Confirmation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/DeliveryDetails.js" afterPath="$PROJECT_DIR$/components/DeliveryDetails.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/BookList.js" afterPath="$PROJECT_DIR$/components/BookList.js" />
     </list>
     <ignored path="ReactUsingWebPack.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sucess.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Sucess.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/Sucess.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -71,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookList.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BookList.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/BookList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="98" column="38" selection-start-line="98" selection-start-column="38" selection-end-line="98" selection-end-column="38" />
+            <state relative-caret-position="1173">
+              <caret line="84" column="56" selection-start-line="84" selection-start-column="56" selection-end-line="84" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -144,12 +141,12 @@
         <option value="$PROJECT_DIR$/client/index.html" />
         <option value="$PROJECT_DIR$/components/TextInput.js" />
         <option value="$PROJECT_DIR$/components/ShippingDetials.js" />
-        <option value="$PROJECT_DIR$/components/BookList.js" />
         <option value="$PROJECT_DIR$/components/ShippingDetails.js" />
         <option value="$PROJECT_DIR$/components/DeliveryDetails.js" />
         <option value="$PROJECT_DIR$/components/BookStore.js" />
         <option value="$PROJECT_DIR$/components/Confirmation.js" />
         <option value="$PROJECT_DIR$/components/Sucess.js" />
+        <option value="$PROJECT_DIR$/components/BookList.js" />
       </list>
     </option>
   </component>
@@ -726,7 +723,7 @@
       <workItem from="1468167602343" duration="11292000" />
       <workItem from="1468341825185" duration="1000" />
       <workItem from="1468341845638" duration="6280000" />
-      <workItem from="1468610982138" duration="2909000" />
+      <workItem from="1468610982138" duration="3133000" />
     </task>
     <task id="LOCAL-00001" summary="Added .babelrc configuration file to use the ES6 and JSX plugins">
       <created>1467757068499</created>
@@ -917,11 +914,18 @@
       <option name="project" value="LOCAL" />
       <updated>1468612090051</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Success Page Implemented. App Prototype Done.">
+      <created>1468614124181</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1468614124181</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72404000" />
+    <option name="totallyTimeSpent" value="72628000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -975,7 +979,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added react and react-dom in package.json file to install" />
     <MESSAGE value="Created a component using ES6 classes and then updating the bundle.js by running ./node_modules/.bin/webpack -d command&#10;" />
     <MESSAGE value="Running Webpack in watch mode by running ./node_modules/.bin/webpack -d --watch command" />
     <MESSAGE value="added a property to script object in package.json to run node server" />
@@ -1000,7 +1003,8 @@
     <MESSAGE value="Created Shipping Component and added event handlers and proper states." />
     <MESSAGE value="Implemented the ShippingDetails components with required validation" />
     <MESSAGE value="DeliveryDetails Component created and implemented successfully." />
-    <option name="LAST_COMMIT_MESSAGE" value="DeliveryDetails Component created and implemented successfully." />
+    <MESSAGE value="Success Page Implemented. App Prototype Done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Success Page Implemented. App Prototype Done." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1250,14 +1254,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/BookList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="98" column="38" selection-start-line="98" selection-start-column="38" selection-end-line="98" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/DeliveryDetails.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1297,6 +1293,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="14" column="153" selection-start-line="14" selection-start-column="153" selection-end-line="14" selection-end-column="153" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/BookList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="84" column="56" selection-start-line="84" selection-start-column="56" selection-end-line="84" selection-end-column="56" />
           <folding />
         </state>
       </provider>

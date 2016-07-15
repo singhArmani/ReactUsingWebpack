@@ -10,15 +10,16 @@ export default class BookList extends React.Component {
 
         //defining state for this component
         this.state = {books:[
-            {
+            {   id:1,
                 name:"The Golden Bird",
                 author:"Amandeep Singh"
             },
-            {
+            {   id:2,
                 name:"Harry Potter and the Deathly Hollows",
                 author:"Malkeet Singh"
             },
             {
+                id:3,
                 name:"My Journey of struggle",
                 author:"Rasmeet Kour"
             }],
@@ -81,7 +82,7 @@ export default class BookList extends React.Component {
     //this function will render the book with the name and the author
     RenderBook(book){
         return(
-                <div className="checkbox">
+                <div className="checkbox" key={book.id}>
                     <label>
                         <input type="checkbox"
                                value= {book.name}
