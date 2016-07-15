@@ -3,6 +3,7 @@ import React from 'react';
 export default class Confirmation extends React.Component {
     constructor(props){
         super(props);
+        this.handleSubmit = this.handleSubmit.bind(this);
 
     }
     handleSubmit(event){
@@ -19,7 +20,7 @@ export default class Confirmation extends React.Component {
                             <strong>Full Name</strong>:{this.props.data.fullName}
                         </div><br/>
 
-                        <div>
+                        <div>g
                             <strong>Contact Number</strong>:{this.props.data.contactNumber}
                         </div><br/>
 

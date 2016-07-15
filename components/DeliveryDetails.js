@@ -13,7 +13,7 @@ export default class ShippingDetails extends React.Component {
 
     }
 
-    handleSubmit(){
+    handleSubmit(event){
         event.preventDefault();
         console.log("form submitted!");
         this.props.updateFormData(this.state); 

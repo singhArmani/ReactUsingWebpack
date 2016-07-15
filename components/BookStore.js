@@ -2,6 +2,8 @@ import React from "react";
 import BookList from './BookList';
 import ShippingDetails from './ShippingDetails';
 import DeliveryDetails from './DeliveryDetails';
+import Confirmation from './Confirmation';
+import Success from './Sucess';
 /**
  * Created by singh on 8/07/2016.
  */
@@ -31,6 +33,12 @@ import DeliveryDetails from './DeliveryDetails';
                  return <ShippingDetails updateFormData ={this.updateFormData}/>;
              case 3:
                  return <DeliveryDetails updateFormData ={this.updateFormData}/>;
+             case 4:
+                 return <Confirmation  data = {this.state.formValues} updateFormData ={this.updateFormData}/>;
+             case 5:
+                 return <Success data = {this.state.formValues} />
+             default:
+                 return <BookList updateFormData ={this.updateFormData} />;
          }
      }
 }
