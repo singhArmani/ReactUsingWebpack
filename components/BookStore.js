@@ -14,8 +14,14 @@ import Success from './Sucess';
     //E6 style
     constructor(props){
         super(props);
-        this.state = {currentStep:1, formValues:{}}; //new way of assigning value to step
+        this.state = {currentStep:1, formValues:{}, cartTimeout: 60*15}; //new way of assigning value to step
         this.updateFormData = this.updateFormData.bind(this);
+        this.updateCartTimeout = this.updateCartTimeout.bind(this);
+    }
+
+    //keep updating the cart Time Out
+    updateCartTimeout(timeout){
+        this.setState({cartTimeout:timeout});
     }
     
     updateFormData(formData){
